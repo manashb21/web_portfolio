@@ -57,43 +57,20 @@ nav a:hover
     border-bottom-color: #FA255E;
 }
 
-.btndiv
-{
-    padding: 8px;
-    width: 100%;
+.belowheader
+{   
     display: flex;
-    justify-content: left;
-}
-
-.btndiv button
-{
-    font-size: 1em;
-    font-weight: 600;
-    color: rgb(55, 55, 55);
-    padding: 8px;
-    width: max-content;
-    border-color: rgb(55, 55, 55);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(240, 255, 255, 0.223);
-}
-
-.btndiv button:hover
-{
-    border-color: rgb(55, 55, 55);
-    color: aliceblue;
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: all 0.1s ease 100ms;
+    justify-content: space-between;
 }
 
 .hellodiv
-{   
+{  
+    display: flex;
+    flex-direction: column;
     color: black;
-    width: 100%;
-    min-height: 100px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .hellodiv h1
@@ -103,8 +80,15 @@ nav a:hover
 }
 
 .hellodiv h4
-{
+{   
     font-weight: 400;
+}
+
+.profimage
+{   
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 /* section fields */
